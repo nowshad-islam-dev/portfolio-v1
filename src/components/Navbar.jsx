@@ -16,12 +16,12 @@ const Navbar = () => {
         />
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl ">
-        <a target="_blank" href="https://github.com/apex-webdev">
+        <a target="_blank" href="https://github.com/nowshad-islam-dev">
           <FaGithub className="cursor-pointer hover:opacity-50" />
         </a>
         <a
           target="_blank"
-          href="https://www.linkedin.com/in/nowshad-islam-fweb-dev"
+          href="https://www.linkedin.com/in/nowshad-islam-dev/"
         >
           <FaLinkedin className="cursor-pointer hover:opacity-50" />
         </a>
