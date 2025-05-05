@@ -10,6 +10,7 @@ import { FaAws } from 'react-icons/fa6';
 import { DiRedis } from 'react-icons/di';
 import { GrGraphQl } from 'react-icons/gr';
 import { SiNginx } from 'react-icons/si';
+import { BiLogoPostgresql } from 'react-icons/bi';
 
 const container = (duration) => ({
   initial: { y: -10 },
@@ -121,6 +122,14 @@ const Technologies = () => {
           className="rounded border-4 border-neutral-400 p-4"
         >
           <SiNginx className="text-7xl text-green-500" />
+        </motion.div>
+        <motion.div
+          variants={container(2.4)}
+          initial="initial"
+          animate="animate"
+          className="rounded border-4 border-neutral-400 p-4"
+        >
+          <BiLogoPostgresql className="text-7xl text-blue-500" />
         </motion.div>
       </motion.div>
     </div>
