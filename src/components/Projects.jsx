@@ -80,7 +80,7 @@ const ProjectCard = ({ project }) => {
         className="w-full lg:w-2/4 max-w-xl"
       >
         <h6 className="mb-2 text-xl font-semibold">{project.title}</h6>
-        <p className="mb-4 text-sm text-neutral-700">{project.description}</p>
+        <p className="mb-4 text-sm ">{project.description}</p>
         <div className="flex flex-wrap">
           {project.technologies.map((tech, index) => (
             <span
