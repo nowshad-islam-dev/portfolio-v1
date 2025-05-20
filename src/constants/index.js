@@ -14,13 +14,26 @@ export const EXPERIENCES = [
     year: '2023 - 2024',
     role: ' Backend Developer',
     company: 'Brokerage (real estate & housing)',
-    technologies: ['Javascript', 'Express', 'Redis', 'Postgres', 'Docker'],
+    technologies: ['Typescript', 'Linux', 'Apache', 'MySQL', 'Redis'],
+  },
+  {
+    year: '4 months contract',
+    role: 'Full Stack Engineer',
+    company: 'ShareChat (social media platform)',
+    technologies: [
+      'Sentry',
+      'RabbitMQ',
+      'Javascript',
+      'Docker',
+      'Svelte',
+      'Node.js',
+    ],
   },
   {
     year: '2022 - 2023',
-    role: 'Full Stack Engineer',
-    company: 'ShareChat (social media platform)',
-    technologies: ['Kafka', 'D3.js', 'Javascript', 'mySQL', 'Apache Arrow'],
+    role: 'Software Engineering Intern',
+    company: 'Maxwell Stamp Ltd.',
+    technologies: ['Jquery', 'Twilio', 'Redux'],
   },
 ];
 
