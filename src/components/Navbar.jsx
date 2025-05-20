@@ -1,4 +1,5 @@
 import logo from '../assets/portfolio_favicon.png';
+import DownloadPDF from './DownloadPDF';
 
 import { FaGithub } from 'react-icons/fa6';
 import { FaLinkedin } from 'react-icons/fa6';
@@ -15,7 +16,10 @@ const Navbar = () => {
           alt="logo"
         />
       </div>
+
       <div className="m-8 flex items-center justify-center gap-4 text-2xl ">
+        <DownloadPDF />
+
         <a target="_blank" href="https://github.com/nowshad-islam-dev">
           <FaGithub className="cursor-pointer hover:opacity-50" />
         </a>
